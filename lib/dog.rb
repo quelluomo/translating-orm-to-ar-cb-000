@@ -1,4 +1,4 @@
-class Dog
+class Dog < ActiveRecord::Base
   sql = <<-SQL
   CREATE TABLE IF NOT EXISTS dogs (
   id INTEGER PRIMARY KEY,
